@@ -1,0 +1,59 @@
+.logo {
+    width: 10;
+
+    position: relative;
+    right: 70px;
+}
+
+.logo>a>img {
+    width: 40px;
+    margin: 1vmax;
+}
+
+
+.nav {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+}
+
+.navlinks {
+    text-decoration: none;
+    margin: 1vmax 1.2vmax;
+    color: rgb(24, 23, 23);
+    font-size: 1.1vmax;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navlinks:hover {
+    color: orangered;
+}
+
+.NavBarLinks {
+    position: relative;
+    right: 80px;
+}
+
+.NavBarLinks>a:hover {
+    text-decoration: none;
+}
+
+
+.searchbox {
+    display: flex;
+    position: relative;
+    left: 25px;
+}
+
+.searchbox>input {
+    margin-right: 0.5vmax;
+    border: none;
+    width: 15vmax;
+    font-size: 1.1vmax;
+    border-bottom: 1px solid grey;
+    outline: none;
+    color: rgb(61, 61, 61);
+    font-weight: 100;
+}
